@@ -1,0 +1,350 @@
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_0//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_0//trajectory0.gif
+Iteration 0 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_1//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_1//trajectory0.gif
+Iteration 1 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_2//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_2//trajectory0.gif
+Iteration 2 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_3//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_3//trajectory0.gif
+Iteration 3 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_4//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_4//trajectory0.gif
+Iteration 4 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_5//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_5//trajectory0.gif
+Iteration 5 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_6//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_6//trajectory0.gif
+Iteration 6 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_7//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_7//trajectory0.gif
+Iteration 7 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_8//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_8//trajectory0.gif
+Iteration 8 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_9//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_9//trajectory0.gif
+Iteration 9 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_10//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_10//trajectory0.gif
+Iteration 10 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_11//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_11//trajectory0.gif
+Iteration 11 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_12//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_12//trajectory0.gif
+Iteration 12 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_13//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_13//trajectory0.gif
+Iteration 13 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_14//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_14//trajectory0.gif
+Iteration 14 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_15//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_15//trajectory0.gif
+Iteration 15 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_16//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_16//trajectory0.gif
+Iteration 16 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_17//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_17//trajectory0.gif
+Iteration 17 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_18//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_18//trajectory0.gif
+Iteration 18 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_19//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_19//trajectory0.gif
+Iteration 19 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_20//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_20//trajectory0.gif
+Iteration 20 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_21//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_21//trajectory0.gif
+Iteration 21 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_22//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_22//trajectory0.gif
+Iteration 22 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_23//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_23//trajectory0.gif
+Iteration 23 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_24//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_24//trajectory0.gif
+Iteration 24 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_25//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_25//trajectory0.gif
+Iteration 25 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_26//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_26//trajectory0.gif
+Iteration 26 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_27//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_27//trajectory0.gif
+Iteration 27 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_28//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_28//trajectory0.gif
+Iteration 28 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_29//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_29//trajectory0.gif
+Iteration 29 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_30//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_30//trajectory0.gif
+Iteration 30 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_31//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_31//trajectory0.gif
+Iteration 31 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_32//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_32//trajectory0.gif
+Iteration 32 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_33//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_33//trajectory0.gif
+Iteration 33 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_34//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_34//trajectory0.gif
+Iteration 34 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_35//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_35//trajectory0.gif
+Iteration 35 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_36//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_36//trajectory0.gif
+Iteration 36 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_37//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_37//trajectory0.gif
+Iteration 37 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_38//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_38//trajectory0.gif
+Iteration 38 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_39//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_39//trajectory0.gif
+Iteration 39 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_40//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_40//trajectory0.gif
+Iteration 40 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_41//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_41//trajectory0.gif
+Iteration 41 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_42//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_42//trajectory0.gif
+Iteration 42 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_43//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_43//trajectory0.gif
+Iteration 43 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_44//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_44//trajectory0.gif
+Iteration 44 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_45//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_45//trajectory0.gif
+Iteration 45 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_46//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_46//trajectory0.gif
+Iteration 46 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_47//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_47//trajectory0.gif
+Iteration 47 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_48//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_48//trajectory0.gif
+Iteration 48 completed.
+[Taichi] version 1.2.2, llvm 10.0.0, commit 608e4b57, linux, python 3.8.2
+[Taichi] Starting on arch=cuda
+Running simulation 0/1...
+Trajectory 0 has 656 particles
+Output written to: maml_dataset/dataset/inputs_2d_49//trajectory0
+Animation saved to: maml_dataset/dataset/inputs_2d_49//trajectory0.gif
+Iteration 49 completed.
