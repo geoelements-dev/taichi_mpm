@@ -1,0 +1,27 @@
+defaults:
+  - _self_
+  - override hydra/hydra_logging: disabled  
+  - override hydra/job_logging: disabled  
+
+hydra:
+  output_subdir: null  
+  run:
+    dir: .
+
+# input data configuration
+input_path: './maml_dataset/inputs_2d.json'
+
+# friction angle configuraion
+friction_angle:
+  start_angle: 20
+  end_angle: 40
+  increment: 5
+  n_files: 60
+
+# inital state 
+init_state:
+  random_position: True
+  random_velocity: True
+
+# output path configuration
+output_path: './maml_dataset/dataset_2/' 
