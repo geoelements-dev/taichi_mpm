@@ -101,7 +101,7 @@ class MPMSolver:
         self.use_adaptive_dt = use_adaptive_dt
         self.use_ggui = use_ggui
         self.F_bound = 4.0
-
+        
         # Affine velocity field
         if not self.use_g2p2g:
             self.C = ti.Matrix.field(self.dim, self.dim, dtype=ti.f32)
@@ -120,6 +120,7 @@ class MPMSolver:
             self.v = ti.Vector.field(self.dim, dtype=ti.f32)
             self.x = ti.Vector.field(self.dim, dtype=ti.f32)
             self.F = ti.Matrix.field(self.dim, self.dim, dtype=ti.f32)
+            self.stress_field = ti.Matrix.field(self.dim, self.dim, dtype=ti.f32)
 
         self.use_emitter_id = use_emitter_id
         if self.use_emitter_id:
@@ -270,7 +271,7 @@ class MPMSolver:
                                 self.color, self.emitter_ids)
             else:
                 self.particle.place(self.x, self.v, self.F, self.material,
-                                self.color)
+                                self.color, self.stress_field)
             if self.support_plasticity:
                 self.particle.place(self.Jp)
             if not self.use_g2p2g:
@@ -449,7 +450,7 @@ class MPMSolver:
             elif self.material[p] == self.material_snow:
                 # Reconstruct elastic deformation gradient after plasticity
                 self.F[p] = U @ sig @ V.transpose()
-
+        
             stress = ti.Matrix.zero(ti.f32, self.dim, self.dim)
 
             if self.material[p] != self.material_sand:
@@ -571,6 +572,8 @@ class MPMSolver:
             self.F[p] = F
 
             stress = (-dt * self.p_vol * 4 * self.inv_dx**2) * stress
+            self.stress_field[p] = stress
+
             # TODO: implement g2p2g pmass
             mass = self.p_mass
             if self.material[p] == self.material_water:
@@ -1153,6 +1156,12 @@ class MPMSolver:
         for i in self.x:
             for j in ti.static(range(self.dim)):
                 np_x[i, j] = input_x[i][j]
+    @ti.kernel
+    def copy_dynamic_matrix(self, np_x: ti.types.ndarray(), input_x: ti.template()):
+        for i in self.x:
+            for j in ti.static(range(self.dim)):
+                for k in ti.static(range(self.dim)):
+                    np_x[i, j, k] = input_x[i][j,k]
 
     @ti.kernel
     def copy_dynamic(self, np_x: ti.types.ndarray(), input_x: ti.template()):
@@ -1183,11 +1192,14 @@ class MPMSolver:
         self.copy_dynamic(np_material, self.material)
         np_color = np.ndarray((self.n_particles[None], ), dtype=np.int32)
         self.copy_dynamic(np_color, self.color)
+        np_stress = np.ndarray((self.n_particles[None], self.dim, self.dim), dtype=np.float32)
+        self.copy_dynamic_matrix(np_stress, self.stress_field)
         particles_data = {
             'position': np_x,
             'velocity': np_v,
             'material': np_material,
-            'color': np_color
+            'color': np_color,
+            'stress': np_stress
         }
         if self.use_emitter_id:
             np_emitters = np.ndarray((self.n_particles[None], ), dtype=np.int32)

@@ -168,11 +168,13 @@ def run_collision(i, inputs):
     # run simulation
     print(f"Running simulation {i}/{inputs['id_range'][1]}...")
     positions = []
+    stress = []
     for frame in tqdm(range(nsteps)):
         mpm.step(mpm_dt)
         colors = np.array([0x068587, 0xED553B, 0xEEEEF0, 0xFFFF00], dtype=np.uint32)
         particles = mpm.particle_info()
         positions.append(particles["position"])
+        stress.append(particles["stress"])
 
         if is_realtime_vis:
             if ndim == 3:
@@ -188,6 +190,7 @@ def run_collision(i, inputs):
                             radius=1.5,
                             color=colors[particles['material']])
     positions = np.stack(positions)
+    stress = np.stack(stress)
 
     # Change axis of positions (y & z), since the render in matplotlib uses the opposite axis order
     if ndim == 3 and follow_taichi_coord == False:
@@ -247,13 +250,15 @@ def run_collision(i, inputs):
         trajectories[f"trajectory{i}"] = (
             positions[::downsample_rate],  # position sequence (timesteps, particles, dims)
             particle_types.astype(np.int32),  # particle type (particles, )
-            material_feature)  # particle type (particles, n_features)
+            material_feature,  # particle type (particles, n_features)
+            stress) 
 
     # If material_feature is False
     else:
         trajectories[f"trajectory{i}"] = (
             positions[::downsample_rate],  # position sequence (timesteps, particles, dims)
-            particle_types.astype(np.int32))  # particle type (particles, )
+            particle_types.astype(np.int32), # particle type (particles, )
+            stress)  
 
     # Save npz
     np.savez_compressed(f"{save_path}/trajectory{i}", **trajectories)
